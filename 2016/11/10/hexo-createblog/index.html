@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Hello World"/>
+        <meta property="og:title" content="hexo-createblog"/>
     
 
     <!--Open Graph Description-->
@@ -42,7 +42,7 @@
 
     <!-- Title -->
     
-    <title>Hello World - Hexo</title>
+    <title>hexo-createblog - Hexo</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -134,8 +134,8 @@
 
     <div class="post-header">
         <h1 class="title">
-            <a href="/2016/11/10/hello-world/">
-                Hello World
+            <a href="/2016/11/10/hexo-createblog/">
+                hexo-createblog
             </a>
         </h1>
         <div class="post-info">
@@ -154,15 +154,30 @@
 
         <!-- Post Content -->
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<h2 id="创建博客hexo安装"><a href="#创建博客hexo安装" class="headerlink" title="创建博客hexo安装"></a>创建博客hexo安装</h2><h3 id="初次使用需进行全局安装"><a href="#初次使用需进行全局安装" class="headerlink" title="初次使用需进行全局安装"></a>初次使用需进行全局安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g     </div><div class="line"><span class="string">"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<h3 id="初始化配置环境"><a href="#初始化配置环境" class="headerlink" title="初始化配置环境"></a>初始化配置环境</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm init</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<h3 id="安装依赖包"><a href="#安装依赖包" class="headerlink" title="安装依赖包"></a>安装依赖包</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<h3 id="在本地预览效果。"><a href="#在本地预览效果。" class="headerlink" title="在本地预览效果。"></a>在本地预览效果。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo s</div></pre></td></tr></table></figure>
+<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo g</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
+<p>keywords:  hexo</p>
+<p><a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a>    本地查看</p>
+<p>部署本地文件到github</p>
+<p>编辑E：\hexo下的_config.yml文件，建议使用Notepad++</p>
+<p>deploy:<br>  type: git<br>  repository: <a href="http://github.com/你的账号/你的账号.github.io.git" target="_blank" rel="external">http://github.com/你的账号/你的账号.github.io.git</a><br>  branch: master</p>
+<h3 id="配置GIT-此处参照—-史上最全github使用方法：github入门到精通"><a href="#配置GIT-此处参照—-史上最全github使用方法：github入门到精通" class="headerlink" title="配置GIT       此处参照—(史上最全github使用方法：github入门到精通)"></a>配置GIT       此处参照—(史上最全github使用方法：github入门到精通)</h3><p>本地创建ssh key:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh-keygen -t rsa -C <span class="string">"你的邮箱"</span></div></pre></td></tr></table></figure></p>
+<p>(之后会要求确认路径和输入密码，我们这使用默认的一路回车就行。成功的话会在~/下生成.ssh文件夹，进去，打开id_rsa.pub，复制里面的key。)</p>
+<p>回到github，进入Account Settings，左边选择SSH Keys，Add SSH Key,title随便填，粘贴key。为了验证是否成功，在Git bash下输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ssh</span> -T git@github.com</div></pre></td></tr></table></figure></p>
+<p>如果是第一次的会提示是否continue，输入yes就会看到：You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。</p>
+<p>接下来我们要做的就是把本地仓库传到github上去，在此之前还需要设置username和email，因为github每次commit都会记录他们。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git config --global user.name <span class="string">"your name"</span>  </div><div class="line">$ git config --global user.email <span class="string">"your_email@youremail.com"</span></div></pre></td></tr></table></figure></p>
+<p>之后执行以下两个命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo g    </div><div class="line">$ hexo d</div></pre></td></tr></table></figure></p>
+<p>会发现出错了：Deployer not found: github    ?这是什么原因呢？</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+<p> 解决升级的hexo带来的问题,接下来再一遍执行：$ hexo d   就可以了</p>
+<h3 id="此时本地配置基本上就完成了，接下来就是主题的更换与发布推送文章了"><a href="#此时本地配置基本上就完成了，接下来就是主题的更换与发布推送文章了" class="headerlink" title="此时本地配置基本上就完成了，接下来就是主题的更换与发布推送文章了"></a>此时本地配置基本上就完成了，接下来就是主题的更换与发布推送文章了</h3>
     </div>
 
     
